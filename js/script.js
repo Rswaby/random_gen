@@ -51,6 +51,7 @@ const quotes = [
 
     },
 ];
+// a list of css colors 
 const backGroundColors = ["rebeccapurple", "firebrick", "green", "yellow","aqua","darkolivegreen","darkseagreen","lightseagreen","mediumseagreen"]
 
 /***
