@@ -113,7 +113,7 @@ const printQuote = () =>{
   // has to be done after innerHTML has been set for quote-box
   if(tagsExist) {
     const htmltags = document.querySelectorAll(".tag");
-    // htmltags = [li.tag, li.tag ...] a list of list item nodes.
+    // htmltags = [li.tag, li.tag ...] a list of li nodes.
     for( let i = 0; i<htmltags.length; i++){
       htmltags[i].style.color = randomColor;
     }
