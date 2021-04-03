@@ -38,7 +38,8 @@ const quotes = [
     source:"Itachi", 
     citation:"Naruto Shippuden",
   },
-  { quote:"People live their lives bound by what they accept as correct and true. \
+  { 
+    quote:"People live their lives bound by what they accept as correct and true. \
       That's how they define \"reality\". But what does it mean to be \"correct \" \
       or \"true\"? Merely vague concepts... Their \"reality\" may all be a mirage. \
       Can we consider them to simply be living in their own world, shaped by their \
@@ -63,7 +64,6 @@ const getRandomColor = () =>{
   return backGroundColors[Math.floor(Math.random() * backGroundColors.length)]
 }
 
-console.log(getRandomQuote());
 /***
  * `printQuote` function
 ***/
@@ -93,6 +93,7 @@ const printQuote = () =>{
   // tags (if tags value exist and has tags)
   const tagList = quoteObject.tags;
 
+  // This will return undefined/false or true
   const tagsExist = tagList && tagList.length > 0;
 
   if (tagsExist){
