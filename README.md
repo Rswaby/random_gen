@@ -15,4 +15,7 @@ open in the browser
 index.html
 ```
 
+### Live Demo
+https://rswaby.github.io/random_gen/
+
 
